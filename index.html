@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>library system</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="navbar">
+            <a>Library System</a>
+
+            <div id="menuitems">
+                <a href="#books">Books</a>
+                <a href="#register">Register</a>
+                <a>Contact Us</a>
+                <a>Logout</a>
+            </div>
+        </div>
+        <section>
+        <div id="books">
+            <h1>Books</h1>
+            <table>
+                <thead>
+                    <th>Id</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <table class="nested-table">
+                                <a href="#">Deep Work</a>
+                                    <tr>
+                                        <td>Publication Date:2016</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Page Count:296</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ISBN : 9781455586691 (ISBN10: 1455586692)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Language : English</td>
+                                    </tr>
+                            </table>
+                         </td>
+                        <td>Cal Newport</td>
+                        <td>Self Help</td>
+                        <td>Available</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <table class="nested-table">
+                                <a href="#">Atomic Habits</a>
+                                    <tr>
+                                        <td>Publication Date:2018</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Page Count:319</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ISBN 9780735211292</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Language : English</td>
+                                    </tr>
+                            </table>
+                         </td>
+                        <td>James Clear</td>
+                        <td>Self Help</td>
+                        <td>Not-Available</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <table class="nested-table">
+                                <a href="#">Dune</a>
+                                    <tr>
+                                        <td>Publication Date:2005</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Page Count:658</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ISBN: 9780593099322</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Language : English</td>
+                                    </tr>
+                            </table>
+                         </td>
+                        <td>Frank Herbert</td>
+                        <td>Fantasy</td>
+                        <td>Available</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>
+                            <table class="nested-table">
+                                <a href="#">Animal farm</a>
+                                    <tr>
+                                        <td>Publication Date:1945</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Page Count:128</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ISBN: 9780451526342 (ISBN10: 0451526341)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Language : English</td>
+                                    </tr>
+                            </table>
+                         </td>
+                        <td>George Orwell</td>
+                        <td>Dystopia</td>
+                        <td>Available</td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>
+                            <table class="nested-table">
+                                <a href="#">A Brief History of Time</a>
+                                    <tr>
+                                        <td>Publication Date:1998</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Page Count:226</td>
+                                    </tr>
+                                    <tr>
+                                        <td>ISBN: 9780553380163 (ISBN10: 0553380168)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Language : English</td>
+                                    </tr>
+                            </table>
+                         </td>
+                        <td>Stephen Hawking</td>
+                        <td>Science</td>
+                        <td>Not-Available</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+        </section>
+           
+      
+
+
+        </div>
+        <section id="reg-sec">
+        <div id="register">
+            <h1>Register</h1>
+            <form>
+                <label for="firstname">First Name:</label><br>
+                <input type="text" name="firstname"  required="required">
+                <br/>
+                <label for="lastname">Last Name:</label><br>
+                <input type="text" name="lastname"  required="required">
+                <br/>
+                <label for="date">Date of Birth:</label><br>
+                <input type="date" name="date" required="required">
+                <br/>
+                <label for="age">Age:</label><br>
+                <input type="number" name="age" min="5" max="100" required="required">
+                <br/>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email"  required="required"> 
+                <br/>
+                <label for="password">Password:</label><br>
+                <input type="password" name="password"  required="required"> 
+                <br/>
+                <label for="cpassword">Confirm Password:</label><br>
+                <input type="password" name="cpassword"  required="required"> 
+
+                
+            </form>
+        </div>
+    </section>
+
+    </body>
+</html>
